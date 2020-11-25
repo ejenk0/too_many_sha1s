@@ -33,7 +33,7 @@ for count, i in enumerate(words):
         doubled_words = []
         doubled_f.close()
     for j in words:
-        doubled_words.append(i + " " + j)
+        doubled_words.append(i[:-1] + " " + j)
 
 doubled_f.close()
 
